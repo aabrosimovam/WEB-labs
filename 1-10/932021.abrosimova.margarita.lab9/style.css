@@ -1,0 +1,49 @@
+html
+{
+    font-family: Helvetica;
+}
+
+td
+{
+    width:48px; 
+    height:48px;
+    border: solid 1px grey;
+    background: #f4f4f2;
+    text-align: center;
+}
+main
+{
+    border: 2.5px solid #6dacd5;
+    width: 290px;
+    padding: 10px;
+}
+
+.inp
+{
+    width: 270px;
+    height: 35px;
+    font-size: 26px;
+    color: gray;
+    text-align: right;
+    margin-bottom: 5px;
+
+}
+
+table{
+    border-spacing: 7px;
+}
+
+
+td:active
+{
+    border:1px solid blue;
+}
+
+#buffer
+{
+    position:absolute;
+    top:26.6px;
+    color: black;
+    left: 30.7px;
+    font-size: 26px;
+}

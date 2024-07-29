@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+}
+
+html {
+	background-image: url("background.jpg");
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	transition: 0.5s;
+	position: relative;
+}
+
+.triangle {
+    width: 0;
+    border-bottom: 645px solid yellow;
+    border-left: 738px solid black;
+    border-right: 730px solid black;
+    position: absolute;
+    width: 61px;
+    margin-top: 42px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+
+html:hover {
+	background-position-y: -150px;
+}
+
+body{
+	font-size: 0;
+	text-align: center;
+}
+
+#lamp {
+	position: relative;
+	margin: auto;
+	display: none;
+	margin-left: 54%;
+	width: 15%;
+	height: auto;
+	margin-top: 50px;
+}
+
+#turn{
+	position: absolute;
+    left: calc(60% - 0px);
+	width: 10px;
+    top: -22px;
+	margin: auto;
+	display: none;
+	margin-top: 100px;
+    transition: margin-top 0.2s ease-out 0s;
+}
+
+.focus {
+	display: inline-block;
+	opacity: 0;
+	width: 30%;
+    margin-top: 10%;
+}
+
+
+
+#hat {
+	position: relative;
+	width: 200px;
+	height: auto;
+	margin-left: 3px;
+	width: 12%;
+    z-index: -2;
+}
+
+#animal {
+	position: absolute;
+	margin-left: 40px;
+	width: 7%;
+	height: auto;
+    z-index: -3;
+}
